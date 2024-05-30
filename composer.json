@@ -1,5 +1,5 @@
 {
-    "name": "marcos/mailbit-library-laravel",
+    "name": "marcossantos/mailbit-library-laravel",
     "description": "A simple library to send emails using the Mailbit API",
     "type": "library",
     "require": {
@@ -14,8 +14,8 @@
     },
     "authors": [
         {
-            "name": "marcossantosfl",
-            "email": "56878202+marcossantosfl@users.noreply.github.com"
+            "name": "marcossantos",
+            "email": "56878202+marcossantos@users.noreply.github.com"
         }
     ],
     "minimum-stability": "stable",
