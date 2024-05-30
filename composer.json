@@ -1,0 +1,29 @@
+{
+    "name": "marcos/mailbit-library-laravel",
+    "description": "A simple library to send emails using the Mailbit API",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marcos\\MailbitLibraryLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marcossantosfl",
+            "email": "56878202+marcossantosfl@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marcos\\MailbitLibraryLaravel\\MailbitServiceProvider"
+            ]
+        }
+    }
+}
